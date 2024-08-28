@@ -21,6 +21,7 @@ basic.forever(function () {
             . . # . .
             . . . . .
             `)
+        robotbit.Servo(robotbit.Servos.S1, 50)
     } else {
         basic.showLeds(`
             . . . . .
@@ -29,5 +30,7 @@ basic.forever(function () {
             . . . . .
             . . . . .
             `)
+        robotbit.Servo(robotbit.Servos.S1, 50)
+        basic.pause(5000)
     }
 })

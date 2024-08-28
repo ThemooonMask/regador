@@ -10,10 +10,10 @@
         . # # # . 
         . . # . . 
         . . . . .
-        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id=";z5wJYib*M@T@%tx;=OW"><field name="LEDS">`
+        `</field><next><block type="robotbit_servo" id="@fuxe-W]1AC#-MR,N$$K"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id=")=O`P]dx-|%r_dWy2X0v"><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">50</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id=";z5wJYib*M@T@%tx;=OW"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . # . . 
         . . . . . 
         . . . . .
-        `</field></block></statement></block></next></block></next></block></statement></block></xml>
+        `</field><next><block type="robotbit_servo" id="~gp4,}2jDR4ugq(hv~%K"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="F-]UqTMJlIIOVc*^RGT$"><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><next><block type="device_pause" id="!U{fUA7oS2hM(46a/:ZK"><value name="pause"><shadow type="timePicker" id="CEza)b(Ue$h+,HF*Qd1:"><field name="ms">5000</field></shadow></value></block></next></block></next></block></statement></block></next></block></next></block></statement></block></xml>
